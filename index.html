@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Evan Norton - Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+        rel="stylesheet" />
+    <style>
+        html {
+            width: 850px;
+            height: 1100px;
+            border: 1px solid black;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            padding: 2em;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        h3 {
+            border-bottom: .175em solid black;
+            padding-left: .75em;
+            padding-bottom: .1em;
+            margin-top: 0;
+            margin-bottom: .5em;
+            font-size: 1.35em;
+        }
+
+        h4 {
+            margin: 0;
+        }
+
+        ul {
+            margin-top: 0;
+            margin-bottom: .675em;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: .675em;
+        }
+
+        header {
+            margin-bottom: .5em;
+        }
+
+        section .inner {
+            padding: 0 .9em;
+        }
+
+        section .inner .tricolumn {
+            display: flex;
+            justify-content: center;
+        }
+
+        section .inner .tricolumn :first-child {
+            margin-right: auto;
+        }
+
+        section .inner .tricolumn :last-child {
+            margin-left: auto;
+        }
+
+        section .inner .tricolumn p {
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 1.05em;
+        }
+
+        section .inner a {
+            font-style: italic;
+            color: blue;
+            text-decoration: inherit;
+            display: block;
+        }
+
+        section .inner a:last-of-type {
+            margin-bottom: .25em;
+        }
+
+        header>.top {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: .25em;
+        }
+
+        header>.top a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        header>.top>.left {
+            display: flex;
+            flex-direction: column;
+            margin-right: auto;
+        }
+
+        header>.top>.right {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+        }
+
+        header>.bottom h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="left">
+                <a href="https://github.com/evannorton">github.com/evannorton</a>
+                <a href="https://linkedin.com/in/evannorton">linkedin.com/in/evannorton</a>
+            </div>
+            <div class="center">
+                <h1>Evan Norton</h1>
+            </div>
+            <div class="right">
+                <a href="tel:6156847148">615-684-7148</a>
+                <a href="mailto:evan@commonrealm.com">evan@commonrealm.com</a>
+            </div>
+        </div>
+        <div class="bottom">
+            <h2>Full Stack Developer - Chattanooga, TN</h2>
+        </div>
+    </header>
+    <main>
+        <section id="technologies">
+            <h3>Technologies</h3>
+            <div class="inner">
+                <ul>
+                    <li><b>Front end:</b> HTML5, CSS3, Sass, JavaScript, jQuery, React, React Native</li>
+                    <li><b>Back end:</b> NodeJS, Express, PHP, MySQL, Wordpress</li>
+                    <li><b>Miscellaneous:</b> Git, Subversion, Heroku, AWS, WHM, cPanel</li>
+                </ul>
+            </div>
+        </section>
+        <section id="experience">
+            <h3>Experience</h3>
+            <div class="inner">
+                <div class="tricolumn">
+                    <p>Web Developer at Spectruss</p>
+                    <p>August 2018 - Present</p>
+                </div>
+                <a href="https://spectruss.com/">spectruss.com</a>
+                <ul>
+                    <li>Full stack position at a marketing agency working primarily in LAMP stack.</li>
+                    <li>Hired as the first software developer at the company, placing me in a position of leadership.
+                    </li>
+                    <li>Developed presentational sites with React, using Headless Wordpress as a CMS.</li>
+                    <li>Developed E-commerce websites with Woocommerce among other platforms.</li>
+                    <li>Developed custom Wordpress plugins and themes.</li>
+                    <li>Developed back end applications using PHP and MySQL.</li>
+                    <li>Managed servers using WHM and cPanel.</li>
+                </ul>
+                <div class="tricolumn">
+                    <p>Full Stack Development Student at Covalence</p>
+                    <p>January 2018 - March 2018</p>
+                </div>
+                <a href="https://spectruss.com/">spectruss.com</a>
+                <ul>
+                    <li>Intensive 400 hour bootcamp which covered the core of full stack web development.</li>
+                    <li>Attended Covalence after sparking a passion for software development in a high school Computer
+                        Science class.</li>
+                    <li>Built front end web applications using JavaScript, jQuery and React.</li>
+                    <li>Built mobile applications with React Native.</li>
+                    <li>Used NodeJS with Express to write servers and API's.</li>
+                    <li>Middleware development with NodeJS.</li>
+                    <li>Studied user authentication with NodeJS and MySQL.</li>
+                    <li>Built relational databases and mastered basic SQL concepts such as stored procedures, keys,
+                        etc. using MySQL.</li>
+                    <li>Combined all material from the course for a final project, building a full stack mobile
+                        application on a small team using the Agile methodology.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h3>Software Projects</h3>
+            <div class="inner">
+                <div class="wrap">
+                    <h4>Image Optimizer for Google Lighthouse</h4>
+                    <a
+                        href="https://github.com/evannorton/Image-Optimizer-for-Google-Lighthouse">github.com/evannorton/Image-Optimizer-for-Google-Lighthouse</a>
+                    <a
+                        href="https://wordpress.org/plugins/image-optimizer-for-google-lighthouse">wordpress.org/plugins/image-optimizer-for-google-lighthouse</a>
+                    <ul>
+                        <li>Wordpress plugin for optimizing images on the web.</li>
+                        <li>Reads from a .json file generated by Google's Lighthouse website auditing tool to determine
+                            bloated images.</li>
+                        <li>Replaces all bloated images with optimized versions compressed using the reSmush.it API.
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <h4>SpaffTracks</h4>
+                    <a href="https://github.com/evannorton/SpaffTracks">github.com/evannorton/SpaffTracks</a>
+                    <a href="https:spafftracks.com">spafftracks.com</a>
+                    <ul>
+                        <li>Audio streaming website built in React for the live band Spafford.</li>
+                        <li>Built an audio player from scratch using the HTML5 audio API.</li>
+                        <li>Built back end server and API to manage audio tracks using NodeJS, Express and MySQL.</li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <h4>MentorMe</h4>
+                    <a href="https://github.com/evannorton/MentorMe">github.com/evannorton/MentorMe</a>
+                    <a href="https://github.com/evannorton/MentorMe-API">github.com/evannorton/MentorMe-API</a>
+                    <ul>
+
+                        <li>Final project at Covalence.</li>
+                        <li>Social networking mobile app that connects mentees to potential mentors.</li>
+                        <li>Features include navigating through profiles, setting up appointments, paying through the
+                            app and more.</li>
+                        <li>Worked under Agile methodology with two other students to create a full stack mobile app.
+                        </li>
+                        <li>Developed UI and front end functionality with React Native.</li>
+                        <li>Built back end server and API with NodeJS, Express and MySQL.</li>
+                        <li>Presented at graduation to a small local community of developers.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
