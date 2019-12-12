@@ -115,6 +115,18 @@
         header>.bottom h2 {
             text-align: center;
         }
+
+        #projects .inner {
+            max-height: 40em;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        #projects .wrap {
+            width: 47.5%;
+        }
     </style>
 </head>
 
@@ -143,28 +155,39 @@
             <div class="inner">
                 <ul>
                     <li><b>Front end:</b> HTML5, CSS3, Sass, JavaScript, TypeScript, jQuery, React, React Native</li>
-                    <li><b>Back end:</b> Node.js, Express.js, PHP, MySQL, Wordpress</li>
-                    <li><b>Miscellaneous:</b> Git, Subversion, Heroku, AWS, WHM, cPanel</li>
+                    <li><b>Back end:</b> Node, Express, PHP, Laravel, MySQL, Wordpress</li>
+                    <li><b>Miscellaneous:</b> Git, Subversion, Heroku, AWS, WHM, cPanel, Postman</li>
                 </ul>
             </div>
         </section>
         <section id="experience">
             <h3>Experience</h3>
             <div class="inner">
+                <div style="margin-bottom:.175em;" class="tricolumn">
+                    <p>Developer at Rentz Corp</p>
+                    <p>August 2019 - Present</p>
+                </div>
+                <ul>
+                    <li>First engineering hire.</li>
+                    <li>Full stack position at a tech startup working in LAMP stack.</li>
+                    <li>Worked closely with the CTO as the lead developer building a marketplace app.</li>
+                    <li>Front end development with jQuery, Sass and Bootstrap.</li>
+                    <li>Back end development with Laravel and MySQL.</li>
+                    <li>Extensive unit testing.</li>
+                    <li>Linux server administration (Amazon EC2).</li>
+                </ul>
                 <div class="tricolumn">
                     <p>Web Developer at Spectruss</p>
-                    <p>August 2018 - Present</p>
+                    <p>August 2018 - August 2019</p>
                 </div>
                 <a target="_blank" href="https://spectruss.com/">spectruss.com</a>
                 <ul>
+                    <li>First engineering hire.</li>
                     <li>Full stack position at a marketing agency working primarily in LAMP stack.</li>
-                    <li>Hired as the first software developer at the company, placing me in a position of leadership.
-                    </li>
-                    <li>Developed presentational sites with React, using Headless Wordpress as a CMS.</li>
-                    <li>Developed E-commerce websites with Woocommerce among other platforms.</li>
-                    <li>Developed custom Wordpress plugins and themes.</li>
-                    <li>Developed back end applications using PHP and MySQL.</li>
-                    <li>Managed servers using WHM and cPanel.</li>
+                    <li>Presentational site development with React, using Headless Wordpress as a CMS.</li>
+                    <li>E-commerce website development with Woocommerce among other platforms.</li>
+                    <li>Custom Wordpress plugin and theme development.</li>
+                    <li>Server administration with WHM and cPanel.</li>
                 </ul>
                 <div class="tricolumn">
                     <p>Full Stack Development Student at Covalence</p>
@@ -172,18 +195,12 @@
                 </div>
                 <a target="_blank" href="https://covalence.io/">covalence.io</a>
                 <ul>
-                    <li>Intensive 400 hour bootcamp which covered the core of full stack web development.</li>
-                    <li>Attended Covalence after sparking a passion for software development in a high school Computer
-                        Science class.</li>
-                    <li>Built front end web applications using JavaScript, jQuery and React.</li>
-                    <li>Built mobile applications with React Native.</li>
-                    <li>Used Node.js with Express to write servers and API's.</li>
-                    <li>Middleware development with Node.js.</li>
-                    <li>Studied user authentication with Node.js and MySQL.</li>
-                    <li>Built relational databases and mastered basic SQL concepts such as stored procedures, keys,
-                        etc. using MySQL.</li>
-                    <li>Combined all material from the course for a final project, building a full stack mobile
-                        application on a small team using the Agile methodology.</li>
+                    <li>Intensive 400 hour bootcamp encompassing the core of full stack web development.</li>
+                    <li>Front end development with vanilla JavaScript, jQuery and React.</li>
+                    <li>Back end development with Node and Express.</li>
+                    <li>Mobile application development with React Native.</li>
+                    <li>Relational database development with MySQL.</li>
+                    <li>Agile methodology training.</li>
                 </ul>
             </div>
         </section>
@@ -191,44 +208,52 @@
             <h3>Software Projects</h3>
             <div class="inner">
                 <div class="wrap">
-                    <h4>Image Optimizer for Google Lighthouse</h4>
-                    <a
-                        href="https://github.com/evannorton/Image-Optimizer-for-Google-Lighthouse">github.com/evannorton/Image-Optimizer-for-Google-Lighthouse</a>
+                    <h4>RetroMMO (Ongoing)</h4>
+                    <a href="https://oniq-online.herokuapp.com">oniq-online.herokuapp.com (Early demo)</a>
+                    <ul>
+                        <li>Online multiplayer video game written in full-stack TypeScript.</li>
+                        <li>Game engine development from scratch.</li>
+                        <li>Rendering engine built with HTML5 Canvas.</li>
+                        <li>Game server development with Node, using websockets.</li>
+                    </ul>
+                </div>
+                <div class="wrap">
+                    <h4>Image Optimizer for Google Lighthouse - October 2018</h4>
                     <a
                         href="https://wordpress.org/plugins/image-optimizer-for-google-lighthouse">wordpress.org/plugins/image-optimizer-for-google-lighthouse</a>
                     <ul>
-                        <li>Wordpress plugin for optimizing images on the web.</li>
-                        <li>Reads from a .json file generated by Google's Lighthouse website auditing tool to determine
-                            bloated images.</li>
-                        <li>Replaces all bloated images with optimized versions compressed using the reSmush.it API.
+                        <li>Wordpress plugin for 1-click optimizing all bloated images across a Wordpress site.</li>
+                        <li>Integrates with Google's Lighthouse auditing tool to detect inefficiently encoded
+                            images.</li>
                         </li>
                     </ul>
                 </div>
                 <div class="wrap">
-                    <h4>SpaffTracks</h4>
-                    <a target="_blank" href="https://github.com/evannorton/SpaffTracks">github.com/evannorton/SpaffTracks</a>
-                    <a target="_blank" href="https:spafftracks.com">spafftracks.com</a>
+                    <h4>SpaffTracks - May 2018</h4>
+                    <a target="_blank"
+                        href="https://github.com/evannorton/SpaffTracks">github.com/evannorton/SpaffTracks (Source code)</a>
+                    <a target="_blank" href="https:spafftracks.com">spafftracks.com (Live app)</a>
                     <ul>
-                        <li>Audio streaming website built in React for the live band Spafford.</li>
+                        <li>Audio streaming website for the live band Spafford.</li>
                         <li>Built an audio player from scratch using the HTML5 audio API.</li>
-                        <li>Built back end server and API to manage audio tracks using Node.js, Express and MySQL.</li>
+                        <li>Front end development with React.</li>
+                        <li>Back end development with Node, Express and MySQL.</li>
                     </ul>
                 </div>
                 <div class="wrap">
-                    <h4>MentorMe</h4>
-                    <a target="_blank" href="https://github.com/evannorton/MentorMe">github.com/evannorton/MentorMe</a>
-                    <a target="_blank" href="https://github.com/evannorton/MentorMe-API">github.com/evannorton/MentorMe-API</a>
+                    <h4>MentorMe - March 2018</h4>
+                    <a target="_blank" href="https://github.com/evannorton/MentorMe">github.com/evannorton/MentorMe (Client source code)</a>
+                    <a target="_blank"
+                        href="https://github.com/evannorton/MentorMe-API">github.com/evannorton/MentorMe-API (Server source code)</a>
                     <ul>
-
+                        <li>Marketplace mobile app connecting mentees to potential mentors.</li>
                         <li>Final project at Covalence.</li>
-                        <li>Social networking mobile app that connects mentees to potential mentors.</li>
-                        <li>Features include navigating through profiles, setting up appointments, paying through the
-                            app and more.</li>
-                        <li>Worked under Agile methodology with two other students to create a full stack mobile app.
-                        </li>
-                        <li>Developed UI and front end functionality with React Native.</li>
-                        <li>Built back end server and API with Node.js, Express and MySQL.</li>
-                        <li>Presented at graduation to a small local community of developers.</li>
+                        <li>Worked under Agile methodology, collaborating with other students.</li>
+                        <li>Mobile application development with React Native.</li>
+                        <li>Back end development with Node, Express and MySQL.</li>
+                        <li>Payment processing with Stripe.</li>
+                        <li>File management with AWS S3.</li>
+                        <li>Presented at graduation to a local community of developers.</li>
                     </ul>
                 </div>
             </div>
